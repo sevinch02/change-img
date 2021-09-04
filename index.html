@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .intro {
+        position: relative;
+        background-color: blue;
+        width: 60%;
+        height: 300px;
+        color: #fff;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .start {
+        position: absolute;
+        background-color: cornsilk;
+        top: 43%;
+        bottom: 10%;
+        right: 10%;
+        left: 19%;
+        width: 30%;
+        height: 400px;
+        padding: 50px 10px 20px;
+        text-align: center;
+    }
+
+    section {
+        width: 70%;
+        margin: 90px auto;
+    }
+
+    img {
+        width: 200px;
+        border-radius: 50%;
+        z-index: 6;
+    }
+
+    div {
+        position: absolute;
+        transition: all 1.3s ease;
+        padding: 0 90px;
+    }
+
+    h3 {
+        background-color: chocolate;
+        border-radius: 15px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-top: 271px;
+        margin-left: 130px;
+        background-color: yellow;
+        width: 60px;
+        border-radius: 15px;
+      
+    }
+
+    ::marker {
+        color: green;
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 24px;
+        color: #fff;
+        background-color: lightseagreen;
+        padding: 15px 10px;
+        border-radius: 8px;
+        width: 70%;
+        margin-top: 0;
+        outline: none;
+        border: none;
+    }
+</style>
+
+<body>
+    <section>
+        <article class="intro">
+            <h2>Hi George</h2>
+            <p>You can contact us whenever you need help or just curious about something.</p>
+        </article>
+        <article class="start">
+            <h4>Start chatting</h4>
+            <div>
+                <img src="./img/1.png" alt="">
+                <h3 class="image__title">Essie Walton</h3>
+            </div>
+            <div>
+
+                <img src="./img/2.png" alt="">
+                <h3>Edward Smit</h3>
+            </div>
+            <div>
+                <img src="./img/3.png" alt="">
+                <h3>jon </h3>
+            </div>
+            <div>
+                <img src="./img/4.png" alt="">
+                <h3>sevinch</h3>
+            </div>
+            <ul>
+                <li>Active</li>
+            </ul>
+            <button type="button"> Send a message </button>
+        </article>
+    </section>
+
+
+    <script src="home.js"></script>
+</body>
+
+</html>
